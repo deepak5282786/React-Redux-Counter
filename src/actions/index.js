@@ -11,3 +11,16 @@ export const decNumber = (num) => {
     payload: num,
   };
 };
+
+export const mulNumber = (num) => {
+  return {
+    type: "MULTIPLICATION",
+    payload: num,
+  };
+};
+
+export const divNumber = () => {
+  return {
+    type: "DIVISION",
+  };
+};
